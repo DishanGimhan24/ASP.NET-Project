@@ -1,0 +1,5 @@
+﻿@using Microsoft.Extensions.Configuration;
+@inject IConfiguration Configuration;
+
+<h1>@Configuration["page:Header:Title"]</h1>
+<h4>@Configuration["Page:Header:Subtitle"]</h4>
